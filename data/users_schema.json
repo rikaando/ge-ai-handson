@@ -1,0 +1,32 @@
+[
+  {
+    "name": "user_id",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": "ユーザーID (USR-0101 〜 USR-0125、ai_audit_logs.user_id との結合キー)"
+  },
+  {
+    "name": "user_email",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "社員メールアドレス (モック用 example.com ドメイン)"
+  },
+  {
+    "name": "user_name",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "表示名 (例: 山田 りんご、鈴木 レモン 等のモック名)"
+  },
+  {
+    "name": "department",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "所属部署名 ('開発本部', 'AI統括部', 'データ統括部', '情報システム部', '営業本部', '人事総務部')"
+  },
+  {
+    "name": "job_role",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "職種・担当ロール"
+  }
+]

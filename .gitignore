@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+.gemini/
+.agents/
+/.gcloudignore
+agent_card.json
+samples/sample3_cloud_run_a2a/agent_card.json
+.project_id
+.handson_env

@@ -1,0 +1,74 @@
+[
+  {
+    "name": "event_timestamp",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED",
+    "description": "イベント発生日時 UTC (ISO 8601形式)"
+  },
+  {
+    "name": "log_id",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": "監査ログ一意ID (LOG-202610-001 〜 LOG-202610-100)"
+  },
+  {
+    "name": "trace_id",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "OpenTelemetry 32桁16進トレースID"
+  },
+  {
+    "name": "user_id",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": "実行ユーザーID (users.csv の user_id と結合)"
+  },
+  {
+    "name": "tool_surface",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "利用機能区分 ('Gemini Enterprise Chat', 'Gemini Enterprise Search', 'BigQuery Data Agent', 'Antigravity')"
+  },
+  {
+    "name": "model_name",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "利用モデル名 ('gemini-3.8-flash', 'gemini-4-argon', 'claude-sonnet-5-5', 'claude-opus-5-5')"
+  },
+  {
+    "name": "input_tokens",
+    "type": "INTEGER",
+    "mode": "NULLABLE",
+    "description": "入力トークン数"
+  },
+  {
+    "name": "output_tokens",
+    "type": "INTEGER",
+    "mode": "NULLABLE",
+    "description": "出力トークン数"
+  },
+  {
+    "name": "latency_ms",
+    "type": "INTEGER",
+    "mode": "NULLABLE",
+    "description": "応答レイテンシ (ミリ秒)"
+  },
+  {
+    "name": "prompt_text",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "入力されたプロンプトまたは検索クエリ本文"
+  },
+  {
+    "name": "connector_name",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "呼び出したコネクタ・ツール名 ('Google Drive', 'Confluence', 'Slack', 'Jira', 'Gmail', 'BigQuery', 'GitHub', 'Local Workspace', 'BigQuery MCP', 'Cloud Run MCP', 'none')"
+  },
+  {
+    "name": "response_text",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "モデルが返した応答テキスト要約"
+  }
+]

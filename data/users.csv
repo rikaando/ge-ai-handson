@@ -1,0 +1,26 @@
+user_id,user_email,user_name,department,job_role
+USR-0101,ringo.yamada@example.com,山田 りんご,開発本部,バックエンドエンジニア
+USR-0102,lemon.suzuki@example.com,鈴木 レモン,データ統括部,データエンジニア
+USR-0103,hassaku.kondo@example.com,近藤 ハッサク,開発本部,テックリード
+USR-0104,lime.sato@example.com,佐藤 ライム,開発本部,QAエンジニア
+USR-0105,cacao.takahashi@example.com,高橋 カカオ,開発本部,フロントエンドエンジニア
+USR-0106,mikan.ito@example.com,伊藤 みかん,開発本部,SREエンジニア
+USR-0107,kabosu.watanabe@example.com,渡辺 カボス,営業本部,営業マネージャー
+USR-0108,sudachi.nakamura@example.com,中村 スダチ,営業本部,アカウントエグゼクティブ
+USR-0109,buntan.kobayashi@example.com,小林 ブンタン,営業本部,インサイドセールス
+USR-0110,pine.kato@example.com,加藤 パイン,営業本部,フィールドセールス
+USR-0111,kiwi.yoshida@example.com,吉田 キウイ,営業本部,営業企画担当
+USR-0112,navel.yamamoto@example.com,山本 ネーブル,営業本部,フィールドセールス
+USR-0113,mango.matsumoto@example.com,松本 マンゴー,データ統括部,データ基盤リード
+USR-0114,olive.inoue@example.com,井上 オリーブ,AI統括部,AIエンジニア
+USR-0115,zakuro.kimura@example.com,木村 ザクロ,情報システム部,コーポレートエンジニア
+USR-0116,muscat.hayashi@example.com,林 マスカット,情報システム部,社内ヘルプデスク担当
+USR-0117,cherry.saito@example.com,斎藤 チェリー,AI統括部,MLエンジニア
+USR-0118,melon.shimizu@example.com,清水 メロン,データ統括部,データアナリスト
+USR-0119,iyokan.yamaguchi@example.com,山口 イヨカン,AI統括部,AIプロダクトマネージャー
+USR-0120,plum.mori@example.com,森 プラム,データ統括部,アナリティクスエンジニア
+USR-0121,orange.ikeda@example.com,池田 オレンジ,AI統括部,AIリサーチャー
+USR-0122,karin.hashimoto@example.com,橋本 カリン,人事総務部,採用・労務担当
+USR-0123,yuzu.abe@example.com,阿部 ユズ,人事総務部,総務担当
+USR-0124,berry.ishikawa@example.com,石川 ベリー,情報システム部,セキュリティ担当
+USR-0125,akebi.maeda@example.com,前田 アケビ,情報システム部,IT資産管理担当

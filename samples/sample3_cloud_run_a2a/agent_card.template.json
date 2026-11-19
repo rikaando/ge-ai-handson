@@ -1,0 +1,24 @@
+{
+  "protocolVersion": "0.3.0",
+  "name": "__AGENT_NAME__",
+  "description": "生成AI利用ログとユーザーマスタを結合して部署・ユーザー別の利用量を集計し、プロンプト内の14桁・16桁クレジットカード番号混入をルールベースで検出するエージェント",
+  "url": "__AGENT_URL__",
+  "version": "1.0.0",
+  "capabilities": {
+    "streaming": false
+  },
+  "defaultInputModes": ["text/plain"],
+  "defaultOutputModes": ["text/plain"],
+  "skills": [
+    {
+      "id": "ai_usage_and_card_audit",
+      "name": "生成AI利用量集計・クレジットカード番号監査",
+      "description": "部署・ユーザーごとのトークン消費量と未利用者の集計、および14桁・16桁クレジットカード番号のルールベース検出を実行します。",
+      "tags": ["governance", "audit", "compliance", "credit-card"],
+      "examples": [
+        "部署別の生成AIリクエスト件数とトークン消費量、および一度も使っていないユーザーを教えて",
+        "監査ログ100件をスキャンして、14桁または16桁のクレジットカード番号が混入しているログID・部署・検出パターンを一覧にして"
+      ]
+    }
+  ]
+}
