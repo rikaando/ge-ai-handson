@@ -4,9 +4,8 @@
 
 ```mermaid
 flowchart LR
-  User["Gemini Enterprise Web アプリ"] --> GE["Gemini Enterprise"]
-  GE -->|"IAM 認証 + A2A JSON-RPC"| CR["Cloud Run: main.py"]
-  CR --> ADK["ADK 2.0 BaseAgent (ルールベース)"]
+  GE["Gemini Enterprise"] -->|"A2A"| CR["Cloud Run: main.py"]
+  CR --> ADK["ADK 2.0 BaseAgent (キーワード振り分け)"]
   ADK --> T1["summarize_department_usage"]
   ADK --> T2["audit_credit_card_numbers"]
 ```
@@ -68,7 +67,7 @@ bash ./samples/sample3_cloud_run_a2a/test_a2a.sh
 ```
 
 ```none
-監査ログ100件から14桁または16桁のクレジットカード番号が混入しているログID・部署・検出パターンを一覧にして
+クレジットカード番号が混入しているログID・部署を教えて
 ```
 
 ## ターミナルから Antigravity Skills を配置する場合
